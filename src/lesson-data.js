@@ -10,7 +10,7 @@ export const lesson = {
       headline: "A courier dropping a package at your door and waving through the window isn't delivery.",
       lead: "They need an actual signature — from someone specifically authorized to give it — before the delivery officially counts and responsibility shifts to you.",
       heading: "A courier dropping a package at your door and waving through the window isn't delivery. They need an actual signature — from someone specifically authorized to give it — before the delivery officially counts and responsibility shifts to you.",
-      cta: "Reveal why the signature matters",
+      cta: "Reveal the signature",
       image: "courier-signature",
       reveal: {
         title: "Approval is a specific, documented event",
@@ -68,7 +68,7 @@ export const lesson = {
       kicker: "Screen 4 — Conditional Acceptance: The Honest Middle Lane",
       headline: "Real projects rarely close at 100.000%.",
       heading: "Real projects rarely close at 100.000%. The professional question is what the missing fraction actually is.",
-      cta: "Reveal the honest middle lane",
+      cta: "Reveal the middle lane",
       image: "conditional-acceptance",
       reveal: {
         title: "Conditional Acceptance: The Honest Middle Lane",
