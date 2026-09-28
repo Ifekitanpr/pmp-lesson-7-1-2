@@ -28,9 +28,9 @@ export const lesson = {
       intro: "Every one of these three words is doing real work. Click each to explore.",
       image: "three-words",
       items: [
-        { title: "OBTAIN", text: "The project manager actively secures it. Acceptance left to drift never arrives." },
-        { title: "APPROVAL", text: "A decision by the accepting authority — the sponsor, customer, or product owner the charter names. The right signature from the wrong person binds nobody." },
-        { title: "COMPLETION", text: "Judged against the criteria set earlier, not against satisfaction in the room. A project can feel done and still not meet its own exit criteria." },
+        { title: "OBTAIN", text: "The project manager actively secures it. Acceptance left to drift never arrives.", image: "card-words-obtain" },
+        { title: "APPROVAL", text: "A decision by the accepting authority — the sponsor, customer, or product owner the charter names. The right signature from the wrong person binds nobody.", image: "card-words-approval" },
+        { title: "COMPLETION", text: "Judged against the criteria set earlier, not against satisfaction in the room. A project can feel done and still not meet its own exit criteria.", image: "card-words-completion" },
       ],
     },
     {
@@ -43,10 +43,10 @@ export const lesson = {
       intro: "",
       image: "four-step-mechanics",
       items: [
-        { title: "Validate Scope Did Most of the Work Already", text: "Deliverable-by-deliverable formal acceptance happens throughout monitoring and controlling, separate from the final closure of the whole project. A project that validated continuously arrives at final acceptance holding a folder of signed deliverables — the difference between a ceremony and a siege." },
-        { title: "The Acceptance Review", text: "Walks the criteria checklist with the accepting authority, evidence sitting beside each item." },
-        { title: "Three Lanes", text: "The decision lands in one of three places: accept; accept with conditions; or reject the gap back to rework." },
-        { title: "The Acceptance Certificate", text: "Written, dated, referencing the criteria, signed by the chartered authority. This record authorizes everything downstream — transition, contract closure, financial closure, release." },
+        { title: "Validate Scope Did Most of the Work Already", text: "Deliverable-by-deliverable formal acceptance happens throughout monitoring and controlling, separate from the final closure of the whole project. A project that validated continuously arrives at final acceptance holding a folder of signed deliverables — the difference between a ceremony and a siege.", image: "card-mechanics-validate-scope" },
+        { title: "The Acceptance Review", text: "Walks the criteria checklist with the accepting authority, evidence sitting beside each item.", image: "card-mechanics-acceptance-review" },
+        { title: "Three Lanes", text: "The decision lands in one of three places: accept; accept with conditions; or reject the gap back to rework.", image: "card-mechanics-three-lanes" },
+        { title: "The Acceptance Certificate", text: "Written, dated, referencing the criteria, signed by the chartered authority. This record authorizes everything downstream — transition, contract closure, financial closure, release.", image: "card-mechanics-certificate" },
       ],
       quiz: {
         question: "Scenario: A project has been validating each deliverable formally throughout its execution, collecting signed acceptance for each one as it was completed. At final closure, the project manager presents this folder of signed deliverables to the accepting authority for the final acceptance review. What does this scenario best illustrate?",
@@ -86,10 +86,10 @@ export const lesson = {
       intro: "",
       image: "informality-traps",
       items: [
-        { title: "“The Customer Has Used the System in Production for a Month”", text: "Usage is not acceptance. Get the signature." },
-        { title: "“The Sponsor Emailed Thanks”", text: "Gratitude is not sign-off." },
-        { title: "“Everyone Agreed in the Meeting”", text: "Minutes are not a certificate." },
-        { title: "“The PM Accepted on the Sponsor's Behalf”", text: "The accepting authority is named in the charter, and it is never the person delivering the work." },
+        { title: "“The Customer Has Used the System in Production for a Month”", text: "Usage is not acceptance. Get the signature.", image: "card-traps-production-use" },
+        { title: "“The Sponsor Emailed Thanks”", text: "Gratitude is not sign-off.", image: "card-traps-thanks-email" },
+        { title: "“Everyone Agreed in the Meeting”", text: "Minutes are not a certificate.", image: "card-traps-meeting-agreement" },
+        { title: "“The PM Accepted on the Sponsor's Behalf”", text: "The accepting authority is named in the charter, and it is never the person delivering the work.", image: "card-traps-pm-authority" },
       ],
       quiz: {
         question: "Scenario: A project's deliverable has been running in the customer's production environment for six weeks without complaint. The project manager considers this sufficient evidence of acceptance and moves forward with closing the project, without obtaining a signed acceptance certificate from the accepting authority named in the charter. What is the issue with this approach?",
