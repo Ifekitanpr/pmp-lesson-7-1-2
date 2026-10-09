@@ -52,11 +52,11 @@ export const lesson = {
         question: "Scenario: A project has been validating each deliverable formally throughout its execution, collecting signed acceptance for each one as it was completed. At final closure, the project manager presents this folder of signed deliverables to the accepting authority for the final acceptance review. What does this scenario best illustrate?",
         answers: [
           "An unnecessary duplication of effort, since deliverables were already accepted individually",
+          "Continuous deliverable acceptance supports final confirmation of the whole project",
           "A violation of the charter, since only the sponsor should review deliverables",
           "A sign that the project skipped the acceptance review step entirely",
-          "The intended relationship between Validate Scope and final closure — continuous deliverable-level acceptance means final acceptance confirms the whole meets exit criteria, rather than starting from scratch",
         ],
-        correct: 3,
+        correct: 1,
         correctFeedback: "Correct! This is exactly the intended design — deliverable-by-deliverable acceptance throughout the project (Validate Scope) means final closure confirms the whole project against exit criteria, rather than re-litigating every deliverable from zero. It's the difference between a ceremony and a siege.",
         incorrectFeedback: "Reconsider — this isn't duplication (the two acceptance events serve different purposes), it doesn't violate anything about who reviews deliverables, and the acceptance review is very much still happening here, just built on a strong foundation.",
       },
@@ -94,7 +94,7 @@ export const lesson = {
       quiz: {
         question: "Scenario: A project's deliverable has been running in the customer's production environment for six weeks without complaint. The project manager considers this sufficient evidence of acceptance and moves forward with closing the project, without obtaining a signed acceptance certificate from the accepting authority named in the charter. What is the issue with this approach?",
         answers: [
-          "Usage is not acceptance — a signed certificate from the accepting authority named in the charter is still required, regardless of how smoothly the deliverable has been running",
+          "Usage is not acceptance; formal signed acceptance is still required",
           "The issue is only that six weeks isn't long enough; a longer production period would have been sufficient",
           "The issue is that production usage should have been documented in the meeting minutes instead",
           "There is no issue — six weeks of trouble-free production use is a reasonable substitute for formal acceptance",
